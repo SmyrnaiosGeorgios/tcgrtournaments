@@ -1,1 +1,1 @@
-web: gunicorn --chdir tcgrtournaments coursework.wsgi:application --log-file - --log-level debug
+web: gunicorn coursework.wsgi:application --log-file - --log-level debug
