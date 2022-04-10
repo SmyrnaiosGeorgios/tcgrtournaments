@@ -1,1 +1,1 @@
-web: gunicorn coursework.wsgi:application --log-file - --log-level debug
+web: gunicorn --chdir app coursework.wsgi:application --log-file - --log-level debug
